@@ -1,0 +1,21 @@
+.services {
+  .flex(column, center, center);
+
+  padding: clamp(.5rem, minmax(.5rem, 3rem), 3rem);
+  width: 100%;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+}
+
+.services {
+  &-01 {
+    .services;
+
+    h2 {
+      color: var(--white);
+    }
+  }
+}
